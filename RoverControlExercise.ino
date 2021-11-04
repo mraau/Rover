@@ -26,6 +26,7 @@ struct RoverControl{
   char command;
   int speed;
   int time;
+  int distance;
 
   int getSpeed(){
     return speed;
